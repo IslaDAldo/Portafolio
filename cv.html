@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV · Aldo Heraclio de la Isla</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* Estilos específicos y limpios para lectura y exportación del CV */
+  .cv-container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+  .cv-header {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .cv-header h1 {
+    font-size: 2.2rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+  }
+  .cv-header p {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent);
+  }
+  .cv-section {
+    margin-bottom: 2.5rem;
+  }
+  .cv-section h3 {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    border-left: 2px solid var(--accent);
+    padding-left: 0.75rem;
+  }
+  .cv-item {
+    margin-bottom: 1.5rem;
+  }
+  .cv-item h4 {
+    font-size: 1.1rem;
+    color: var(--text-main);
+    margin-bottom: 0.2rem;
+  }
+  .cv-item span {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .cv-item p, .cv-item ul {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+    line-height: 1.5;
+  }
+  .cv-item ul {
+    padding-left: 1.2rem;
+  }
+
+  /* Optimización para impresión limpia en PDF desde el navegador */
+  @media print {
+    body {
+      background-color: #ffffff !important;
+      color: #111111 !important;
+    }
+    header.nav, .print-actions {
+      display: none !important;
+    }
+    .cv-container {
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+    }
+    .cv-header h1 { color: #111111 !important; }
+    .cv-header p, .cv-section h3 { color: #222222 !important; }
+    .cv-item h4 { color: #111111 !important; }
+    .cv-item p, .cv-item span, .cv-item ul { color: #444444 !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="index.html" class="nav__logo">AHI<span class="dot">.</span></a>
+  <nav class="nav__links">
+    <a href="index.html">← Volver al portafolio</a>
+  </nav>
+</header>
+
+<div class="cv-container">
+  
+  <!-- ACCIÓN DE DESCARGA DIRECTA -->
+  <div class="print-actions" style="margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.03); padding: 1rem 1.5rem; border: 1px solid rgba(255,255,255,0.08);">
+    <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted);">Documento oficial en PDF</span>
+    <a href="assets/cv/Aldo_de_la_Isla_CV.pdf" download class="btn btn--primary" style="padding: 0.5rem 1rem; font-size: 0.8rem; text-decoration: none;">Descargar PDF ↓</a>
+  </div>
+
+  <div class="cv-header">
+    <h1>Aldo Heraclio de la Isla</h1>
+    <p>Zacatecas, Zac. | 437 100 7303 | aldoheraclio.delaisla@fisica.uaz.edu.mx</p>
+  </div>
+
+  <!-- EDUCACIÓN -->
+  <div class="cv-section">
+    <h3>Educación</h3>
+    <div class="cv-item">
+      <h4>Licenciatura en Física</h4>
+      <span>Universidad Autónoma de Zacatecas (UAZ), Unidad Académica de Física · Agosto 2022 – Diciembre 2025</span>
+      <p><strong>Promedio general:</strong> 9.5 / 10<br>Enfoque en simulación numérica, física computacional, dinámica de fluidos y sistemas complejos.</p>
+    </div>
+  </div>
+
+  <!-- INVESTIGACIÓN Y CONGRESOS -->
+  <div class="cv-section">
+    <h3>Experiencia Académica y de Investigación</h3>
+    <div class="cv-item">
+      <h4>Participaciones en el Congreso Nacional de Física (CNF)</h4>
+      <span>Presentación de carteles y trabajos de investigación en modelado numérico</span>
+      <ul>
+        <li>Ecuaciones entrópicas generalizadas de Friedmann — Toluca (2025)</li>
+        <li>Dinámica de olas en un recipiente cilíndrico — Toluca (2025)</li>
+        <li>Estimación aerodinámica de un cohete con CFD — Toluca (2025)</li>
+        <li>Datos de estructura para un fluido de cargas apantalladas — Toluca (2025)</li>
+        <li>Simulación de la trayectoria de un cohete en Fortran — Chihuahua (2024)</li>
+        <li>Aplicación de las ecuaciones de Navier-Stokes en la oceanografía — Morelia (2023)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PREMIOS -->
+  <div class="cv-section">
+    <h3>Premios y Reconocimientos</h3>
+    <div class="cv-item">
+      <h4>Medalla de Bronce · XXXII Olimpiada Nacional de Física</h4>
+      <span>Sociedad Mexicana de Física (Guadalajara, 2021)</span>
+    </div>
+    <div class="cv-item" style="margin-top: 1rem;">
+      <h4>1er Lugar · CreoMX Zacatecas 2025</h4>
+      <span>Categoría Agroindustria, con el equipo AGROPHYS.</span>
+    </div>
+    <div class="cv-item" style="margin-top: 1rem;">
+      <h4>Reconocimiento Institucional</h4>
+      <span>Apoyo en la preparación de selectivos para la Olimpiada Estatal de Física en Zacatecas (2022–2025).</span>
+    </div>
+  </div>
+
+  <!-- HABILIDADES -->
+  <div class="cv-section">
+    <h3>Habilidades Técnicas</h3>
+    <div class="cv-item">
+      <p><strong>Lenguajes de programación:</strong> Fortran 90, Python, Bash.</p>
+      <p><strong>Simulación y CFD:</strong> OpenFOAM, Salome (mallado), Gnuplot.</p>
+      <p><strong>Herramientas:</strong> LaTeX, Git, control de versiones.</p>
+      <p><strong>Sistemas operativos:</strong> Linux (Debian), Windows.</p>
+      <p><strong>Idiomas:</strong> Español (nativo), Inglés (avanzado: lectura técnica y redacción académica).</p>
+    </div>
+  </div>
+
+  <!-- LIDERAZGO -->
+  <div class="cv-section">
+    <h3>Liderazgo y Divulgación Científica</h3>
+    <div class="cv-item">
+      <h4>Presidente de la Sociedad de Alumnos</h4>
+      <span>Unidad Académica de Física, UAZ</span>
+      <p>Coordinación de proyectos académicos internos, organización de conferencias y gestión de actividades de vinculación estudiantil.</p>
+    </div>
+    <div class="cv-item" style="margin-top: 1rem;">
+      <h4>Fundador y Creador · IDEAs Physics</h4>
+      <span>Divulgación científica en plataformas digitales (YouTube, TikTok y Facebook) y organizador del concurso EurekaFest 2025.</span>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

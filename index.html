@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aldo Heraclio de la Isla · Física Computacional & Simulación</title>
+<meta name="description" content="Portafolio de Aldo Heraclio de la Isla — física computacional, simulación numérica, modelado estocástico e inteligencia artificial.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo">AHI<span class="dot">.</span></a>
+  <nav class="nav__links">
+    <a href="#about">Perfil</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#awards">Reconocimientos</a>
+    <a href="#skills">Stack</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__container">
+    <div class="hero__content">
+      <p class="eyebrow">FÍSICA COMPUTACIONAL · SIMULACIÓN ESTOCÁSTICA · CIENCIA DE DATOS</p>
+      <h1 class="hero__title">Aldo Heraclio<br>de la Isla</h1>
+      <p class="hero__subtitle">
+       Licenciado en Física. En camino a la maestría, explorando la intersección entre la física, 
+       la computación científica y la inteligencia artificial. Interesado en simulaciones, redes neuronales y sistemas complejos.
+      </p>
+
+      <div class="hero__cta">
+        <a href="https://github.com/IslaDAldo" target="_blank" rel="noopener" class="btn btn--primary">
+          GitHub ↗
+        </a>
+        <a href="https://www.linkedin.com/in/aldo-heraclio-de-la-isla/" target="_blank" rel="noopener" class="btn btn--ghost">
+          LinkedIn ↗
+        </a>
+        <a href="cv.html" class="btn btn--ghost">
+          Ver / Descargar CV ↓
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__image-wrapper">
+      <img src="assets/img/profile.jpg" alt="Aldo Heraclio de la Isla" class="hero__image">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <p class="section__tag">T+00:12 · PERFIL</p>
+  <div class="section__body">
+    <h2 class="section__title">Sobre mí</h2>
+    <p>
+      Soy físico con un fuerte interés en la computación científica y los métodos numéricos. 
+      Disfruto abordando el ciclo completo de un problema, desde la física subyacente y la integración 
+      numérica hasta el análisis de resultados para transformar datos y simulaciones en explicaciones claras. 
+      Aplico ese mismo rigor analítico a proyectos de ciencia de datos y machine learning. 
+
+    </p>
+    <p>
+      Actualmente preparo el ingreso a una Maestría en Física, mientras desarrollo proyectos de
+      simulación computacional, modelado matemático y machine learning con vocación de portafolio
+      público y reproducible.
+    </p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <p class="section__tag">T+00:34 · PROYECTOS</p>
+  <h2 class="section__title">Proyectos destacados</h2>
+
+  <div class="cards">
+    <article class="card">
+      <p class="card__meta">SIMULACIÓN 6DOF · FORTRAN + PYTHON</p>
+      <h3 class="card__title">Monte Carlo Flight Sensitivity</h3>
+      <p class="card__desc">
+        Simulador de vuelo estocástico para análisis de sensibilidad e incertidumbre:
+        integración 6DOF en Fortran, capa de análisis Monte Carlo y visualización
+        interactiva de trayectorias y elipses de dispersión.
+      </p>
+      <div class="card__tags"><span>Fortran</span><span>Python</span><span>Streamlit</span><span>Monte Carlo</span></div>
+      <a href="https://github.com/IslaDAldo/Monte_Carlo_Flight_Sensitivity" target="_blank" rel="noopener" class="card__link">Ver repositorio ↗</a>
+    </article>
+
+    <article class="card">
+      <p class="card__meta">DINÁMICA MOLECULAR · MÉTODOS NUMÉRICOS</p>
+      <h3 class="card__title">Simulación Molecular</h3>
+      <p class="card__desc">
+        Simulación de sistemas de partículas bajo potenciales de Lennard-Jones y Yukawa,
+        explorando comportamiento colectivo y estabilidad numérica de la integración.
+      </p>
+      <div class="card__tags"><span>Python</span><span>Métodos numéricos</span><span>Física computacional</span></div>
+      <a href="https://github.com/IslaDAldo/Simulacion-Molecular" target="_blank" rel="noopener" class="card__link">Ver repositorio ↗</a>
+    </article>
+
+    <article class="card">
+      <p class="card__meta">APLICACIÓN DE ESCRITORIO · KIVY</p>
+      <h3 class="card__title">Volleyball Stats App</h3>
+      <p class="card__desc">
+        Aplicación de escritorio en Python/Kivy para el registro en tiempo real de
+        estadísticas de partidos de voleibol, pensada para uso en cancha durante el juego.
+      </p>
+      <div class="card__tags"><span>Python</span><span>Kivy</span><span>Datos en tiempo real</span></div>
+      <a href="https://github.com/IslaDAldo/Volleyball_Stats_App" target="_blank" rel="noopener" class="card__link">Ver repositorio ↗</a>
+    </article>
+  </div>
+
+  <p class="cards__more">
+    También en GitHub:
+    <a href="https://github.com/IslaDAldo/GreenByte_HackODS_UNAM" target="_blank" rel="noopener">GreenByte · HackODS UNAM</a> ·
+    <a href="https://github.com/IslaDAldo/AI_Workshop" target="_blank" rel="noopener">AI Workshop</a> ·
+    <a href="https://github.com/IslaDAldo/llm-engineer-toolkit" target="_blank" rel="noopener">LLM Engineer Toolkit</a>
+  </p>
+</section>
+
+<!-- AWARDS -->
+<section class="section" id="awards">
+  <p class="section__tag">T+00:58 · RECONOCIMIENTOS</p>
+  <h2 class="section__title">Premios y reconocimientos</h2>
+
+  <ul class="awards">
+    <li class="award">
+      <span class="award__mark"></span>
+      <div>
+        <h3>1er Lugar · CreoMX Zacatecas 2025</h3>
+        <p>Categoría Agroindustria, con el equipo <strong>AGROPHYS</strong>.</p>
+      </div>
+    </li>
+    <li class="award">
+      <span class="award__mark"></span>
+      <div>
+        <h3>Medallista · XXXII Olimpiada Nacional de Física (2021)</h3>
+        <p>Otorgada por la Sociedad Mexicana de Física (SMF).</p>
+      </div>
+    </li>
+    <li class="award">
+      <span class="award__mark"></span>
+      <div>
+        <h3>Diplomado en Redes Neuronales con Python</h3>
+        <p>SciDataMath.</p>
+      </div>
+    </li>
+    <li class="award">
+      <span class="award__mark"></span>
+      <div>
+        <h3>Talleres de ciencia abierta</h3>
+        <p>CIMAT y HackODS UNAM.</p>
+      </div>
+    </li>
+  </ul>
+
+  <!-- Botón discreto que lleva a la página secundaria de constancias -->
+  <div style="margin-top: 3rem;">
+    <a href="constancias.html" class="btn btn--ghost">
+      Ver archivo completo de constancias y acreditaciones ↗
+    </a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <p class="section__tag">T+01:15 · STACK</p>
+  <h2 class="section__title">Stack tecnológico</h2>
+
+  <div class="skills">
+    <span class="skill">Python</span>
+    <span class="skill">Fortran</span>
+    <span class="skill">Simulación numérica</span>
+    <span class="skill">Métodos numéricos</span>
+    <span class="skill">Redes neuronales</span>
+    <span class="skill">Git / Linux</span>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section--contact" id="contact">
+  <p class="section__tag">T+01:40 · CONTACTO</p>
+  <h2 class="section__title">Hablemos</h2>
+  <p class="contact__lead">Abierto a colaboraciones, investigación y roles de análisis de datos.</p>
+
+  <div class="contact__links">
+    <a href="mailto:aldoheraclio.delaisla@fisica.uaz.edu.mx" class="btn btn--primary">Enviar correo ↗</a>
+    <a href="https://github.com/IslaDAldo" target="_blank" rel="noopener" class="btn btn--ghost">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/aldo-heraclio-de-la-isla/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn ↗</a>
+  </div>
+  <p class="contact__direct-email" style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+    O escríbeme directamente a: <strong>aldoheraclio.delaisla@fisica.uaz.edu.mx</strong>
+  </p>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Aldo Heraclio de la Isla · Zacatecas, México</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
