@@ -1,7 +1,7 @@
 # Portafolio Profesional — Aldo Heraclio de la Isla
 
 Licenciado en Física y futuro estudiante de maestría, enfocado en física computacional, simulación numérica, modelado estocástico e inteligencia artificial.
-https://isladaldo.github.io/Portafolio/
+
 ---
 
 ## 📂 Estructura del Repositorio
